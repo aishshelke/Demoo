@@ -1,0 +1,28 @@
+Git commands:
+1. git init: Initializes a new Git repository in the current directory. It creates a hidden `.git` directory to store repository data.
+
+2. git remote add origin \<repository_URL>: Adds a remote repository to your local repository. The `origin` is a conventional name for the default remote repository, but you can use any name.
+
+3. git fetch: Downloads objects and refs from another repository. It retrieves changes from the remote repository without merging them into your current branch.
+
+4. git branch -r: Lists remote branches. It shows the branches that exist on the remote repository.
+
+5. git add \<file(s)>: Adds file changes to the staging area, preparing them to be included in the next commit.
+
+6. git status: Displays the status of the working directory, including any changes that have been staged or not staged for commit.
+
+7. git commit -m \<message>: Records changes to the repository along with a message describing the changes. The `-m` flag allows you to specify the commit message inline.
+
+8. git push: Uploads local branch commits to the remote repository.
+
+9. git revert \<commit_hash>: Creates a new commit that undoes the changes made by a specified commit. It does not erase history but instead creates a new commit with the inverse changes.
+
+10. git checkout \<branch_name>: Switches to the specified branch. It updates the working directory to reflect the selected branch.
+
+11. git diff: Shows the differences between the working directory, staging area, and the most recent commit.
+
+12. git branch \<branch_name> or git checkout -b \<branch_name>: Creates a new branch with the specified name. The `-b` flag creates and switches to the new branch in a single step.
+
+13. git remote: Lists the remote repositories associated with the current local repository.
+
+14. git remote -v: Lists the remote repositories along with their URLs.
